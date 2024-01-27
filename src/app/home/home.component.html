@@ -1,0 +1,14 @@
+<section class="search-container">
+	<form class="search-form">
+	  <input type="text" placeholder="Search book" #filter class="search-input">
+	  <button class="primary" type="button" (click)="filterResults(filter.value)">
+		  <img class="search-icon" src="/assets/search_icon.svg" alt="search-icon" aria-hidden="true">
+	  </button>
+	</form>
+  </section>
+  <section class="results-container">
+	<app-book
+	  *ngFor="let book of filteredBooksList"
+	  [book]="book">
+	</app-book>
+</section>

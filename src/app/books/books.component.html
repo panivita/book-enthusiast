@@ -1,0 +1,6 @@
+<section class="book">
+	<img class="book-photo" [src]="book.imageLink" alt="Exterior photo of {{book.title}}">
+	<h2 class="book-title">{{ book.title }}</h2>
+	<p class="book-author">{{ book.author}}, {{book.year }}</p>
+	<a [routerLink]="['/details', book.id]">See More</a>
+</section>

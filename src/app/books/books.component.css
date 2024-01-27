@@ -1,0 +1,43 @@
+.container {
+	text-align: center;
+	width: 60%;
+	background-color: #1f1f1f;
+	margin: 1% auto;
+	padding: 2%;
+	border-radius: 5px;
+	border: 2px solid #1f1f1f;
+	box-shadow: 0 0 10px 0 #333333;
+}
+
+.book {
+	background: #9dd9f0;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.book-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.book-photo {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+.book-author {
+	padding-bottom: 20px;
+}
+
+section.book a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+  
