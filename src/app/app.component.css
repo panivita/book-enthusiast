@@ -1,54 +1,55 @@
 body {
-	margin: 0;
-	font-size: 17px;
-	font-family: "Segoe Print", cursive;
-	color: #9dd9f0;
-	background-color: #cccccc;
+  margin: 0;
+  font-size: 17px;
+  font-family: "Segoe Print", cursive;
+  color: #9dd9f0;
+  background-color: #cccccc;
 }
-  
+
 nav.navbar-container {
-	margin: 5px auto;
+  margin: 5px auto;
 }
-  
+
 .navbar-container ul {
-	display: flex;
-	justify-content: flex-end;
-	list-style: none;
-	margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
 }
-  
+
 .navbar-container li {
-	margin-left: 10%;
+  margin-left: 10%;
 }
 
 .navbar-container a {
-	text-decoration: none;
-	color: #9dd9f0;
-	text-transform: uppercase;
-	font-weight: bold;
-	cursor: pointer;
-  }
-  
-.navbar-container, footer {
-	text-align: center;
-	width: 75%;
-	background-color: #1f1f1f;
-	margin: 1% auto;
-	padding: 2%;
-	border-radius: 5px;
-	border: 2px solid #1f1f1f;
-	box-shadow: 0 0 10px 0 #333333;
+  text-decoration: none;
+  color: #9dd9f0;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-container,
+footer {
+  text-align: center;
+  width: 75%;
+  background-color: #1f1f1f;
+  margin: 1% auto;
+  padding: 2%;
+  border-radius: 5px;
+  border: 2px solid #1f1f1f;
+  box-shadow: 0 0 10px 0 #333333;
 }
 
 .copyright {
-	font-weight: bold;
-	font-size: 19px;
-	color: #9dd9f0;
+  font-weight: bold;
+  font-size: 19px;
+  color: #9dd9f0;
 }
 
 @media (max-width: 499px) {
-	.navbar-container, footer {
-		width: 95%;
-	}
+  .navbar-container,
+  footer {
+    width: 95%;
+  }
 }
-  

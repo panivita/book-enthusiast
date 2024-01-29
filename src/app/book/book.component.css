@@ -1,43 +1,43 @@
 .container {
-	text-align: center;
-	width: 75%;
-	background-color: #1f1f1f;
-	margin: 1% auto;
-	padding: 2%;
-	border-radius: 5px;
-	border: 2px solid #1f1f1f;
-	box-shadow: 0 0 10px 0 #333333;
+  text-align: center;
+  width: 75%;
+  background-color: #1f1f1f;
+  margin: 1% auto;
+  padding: 2%;
+  border-radius: 5px;
+  border: 2px solid #1f1f1f;
+  box-shadow: 0 0 10px 0 #333333;
 }
 
 .book {
-	display: flex;
-    flex-direction: column;
-	background: #9dd9f0;
-	border-radius: 10px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	text-decoration: none;
-	color: black;
+  display: flex;
+  flex-direction: column;
+  background: #9dd9f0;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: black;
 }
 
 .book-title {
-	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.book-photo {
-	height: 250px;
-	width: 100%;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
+.book-cover {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 .book-author {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 499px) {
-	.container {
-		width: 95%;
-	}
+  .container {
+    width: 95%;
+  }
 }

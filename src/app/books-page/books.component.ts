@@ -8,14 +8,10 @@ import { Books } from '../book';
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [
-    CommonModule,
-    BookComponent
-  ],
+  imports: [CommonModule, BookComponent],
   templateUrl: './books.component.html',
   styleUrls: ['./books.component.css'],
 })
-
 export class BooksPageComponent {
   booksList: Books[] = [];
   booksService: BooksService = inject(BooksService);

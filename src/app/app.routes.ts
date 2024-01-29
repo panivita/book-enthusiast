@@ -7,16 +7,16 @@ export const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    title: 'Home page'
+    title: 'Home page',
   },
   {
     path: 'books',
     component: BooksPageComponent,
-    title: 'Books page'
+    title: 'Books page',
   },
   {
     path: 'books/:id',
     component: BookDetailsComponent,
-    title: 'Book details'
-  }
+    title: 'Book details',
+  },
 ];

@@ -1,23 +1,18 @@
-
 <main>
-	<nav class="navbar-container">
-		<ul>
-			<li>
-				<a class="nav-link" [routerLink]="['/']">
-					Home
-				</a>
-			</li>
-			<li>
-				<a class="nav-link" [routerLink]="['/books']">
-					Books
-				</a>
-			</li>
-		</ul>
-	</nav>
-	<section class="content">
-		<router-outlet></router-outlet>
-	</section>
-	<footer>
-		<div class="copyright">© 2024 Victoria Kush</div>
-	</footer>
+  <nav class="navbar-container">
+    <ul>
+      <li>
+        <a class="nav-link" [routerLink]="['/']"> Home </a>
+      </li>
+      <li>
+        <a class="nav-link" [routerLink]="['/books']"> Books </a>
+      </li>
+    </ul>
+  </nav>
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+  <footer>
+    <div class="copyright">© 2024 Victoria Kush</div>
+  </footer>
 </main>

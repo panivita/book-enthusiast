@@ -6,16 +6,10 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-book',
   standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule
-  ],
+  imports: [CommonModule, RouterModule],
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.css'],
 })
-
 export class BookComponent {
-
   @Input() book!: Books;
-
 }

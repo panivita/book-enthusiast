@@ -1,6 +1,10 @@
 <a [routerLink]="['/books', book.id]" class="book">
-	<img class="book-photo" [src]="book.imageLink" alt="Photo of {{book.title}}">
-	<h2 class="book-title">{{ book.title }}</h2>
-	<p class="book-author">{{ book.author}}, {{book.year }}</p>
-	<p>See More</p>
+  <img
+    class="book-cover"
+    [src]="book.imageLink"
+    alt="Cover of {{ book.title }}"
+  />
+  <h2 class="book-title">{{ book.title }}</h2>
+  <p class="book-author">{{ book.author }}, {{ book.year }}</p>
+  <p>See More</p>
 </a>

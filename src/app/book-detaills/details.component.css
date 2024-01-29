@@ -1,46 +1,48 @@
 .book-container {
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-	width: 75%;
-	background-color: #1f1f1f;
-	margin: 1% auto;
-	padding: 2%;
-	border-radius: 5px;
-	border: 2px solid #1f1f1f;
-	box-shadow: 0 0 10px 0 #333333;
-	color: #9dd9f0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 75%;
+  background-color: #1f1f1f;
+  margin: 1% auto;
+  padding: 2%;
+  border-radius: 5px;
+  border: 2px solid #1f1f1f;
+  box-shadow: 0 0 10px 0 #333333;
+  color: #9dd9f0;
 }
 
-.book-photo, .book-details {
-	width: 45%;
+.book-cover,
+.book-details {
+  width: 45%;
 }
 
-.book-photo {
-	height: 600px;
-  	object-fit: cover;
-  	box-shadow: 1px 1px 2px #ccc;
-  	border-radius: 5px;
+.book-cover {
+  height: 600px;
+  object-fit: cover;
+  box-shadow: 1px 1px 2px #ccc;
+  border-radius: 5px;
 }
 
 .book-details a {
-	color: #9dd9f0;
+  color: #9dd9f0;
 }
 
 .book-details {
-	align-self: center;
-	margin-right: 2rem;
+  align-self: center;
+  margin-right: 2rem;
 }
 
 @media (max-width: 499px) {
-	.book-container {
-		flex-direction: column;
-		width: 95%;
-	} 
-	.book-photo, .book-details {
-		width: 99%;
-	}
-	.book-details {
-		margin-right: auto;
-	}   
+  .book-container {
+    flex-direction: column;
+    width: 95%;
+  }
+  .book-cover,
+  .book-details {
+    width: 99%;
+  }
+  .book-details {
+    margin-right: auto;
+  }
 }
