@@ -29,7 +29,7 @@ nav.navbar-container {
 	cursor: pointer;
   }
   
-.navbar-container {
+.navbar-container, footer {
 	text-align: center;
 	width: 75%;
 	background-color: #1f1f1f;
@@ -38,5 +38,17 @@ nav.navbar-container {
 	border-radius: 5px;
 	border: 2px solid #1f1f1f;
 	box-shadow: 0 0 10px 0 #333333;
+}
+
+.copyright {
+	font-weight: bold;
+	font-size: 19px;
+	color: #9dd9f0;
+}
+
+@media (max-width: 499px) {
+	.navbar-container, footer {
+		width: 95%;
+	}
 }
   

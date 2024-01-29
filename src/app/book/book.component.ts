@@ -10,8 +10,8 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     RouterModule
   ],
-  templateUrl: './books.component.html',
-  styleUrls: ['./books.component.css'],
+  templateUrl: './book.component.html',
+  styleUrls: ['./book.component.css'],
 })
 
 export class BookComponent {

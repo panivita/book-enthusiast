@@ -1,0 +1,29 @@
+.books-container {
+	text-align: center;
+	width: 75%;
+	background-color: #1f1f1f;
+	margin: 1% auto;
+	padding: 2%;
+	border-radius: 5px;
+	border: 2px solid #1f1f1f;
+	box-shadow: 0 0 10px 0 #333333;
+	display: grid;
+	column-gap: 14px;
+	row-gap: 14px;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+	justify-content: space-around;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+	.books-container {
+		grid-template-columns: repeat(2, 1fr);
+	}  
+}
+  
+@media (max-width: 499px) {
+	.books-container {
+		grid-template-columns: 1fr;
+		width: 95%;
+	}    
+}
+  

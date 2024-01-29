@@ -1,6 +1,7 @@
 export interface Books {
 	id: number;
 	author: string,
+	description: string,
 	country: string,
 	imageLink: string,
 	language: string,
@@ -8,4 +9,4 @@ export interface Books {
 	pages: number,
 	title: string,
 	year: number
-  }
+}

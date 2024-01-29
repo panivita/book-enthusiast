@@ -8,10 +8,6 @@
 	border: 2px solid #1f1f1f;
 	box-shadow: 0 0 10px 0 #333333;
 }
-  
-/* .search-container {
-	min-height: 250px;
-} */
 
 .search-form {
 	display: flex;
@@ -44,9 +40,10 @@
 	display: grid;
   	column-gap: 14px;
   	row-gap: 14px;
-  	grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+  	grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
   	justify-content: space-around;
 	color: black;
+	padding-top: 2rem;
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
@@ -58,5 +55,9 @@
   @media (max-width: 499px) {
 	.results-container {
 		grid-template-columns: 1fr;
-	}    
+		width: 95%;
+	}  
+	.search-container {
+		width: 95%;
+	}  
   }
