@@ -61,4 +61,7 @@
   .search-container {
     width: 95%;
   }
+  .search-input {
+    width: 60%;
+  }
 }
